@@ -83,6 +83,9 @@ DATABASES = {
 	'NAME' : 'codigouno',
 	'USER' : 'root',
 	'PASSWORD' : 'B0cabyte',
+    'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            },
 
     }
 
